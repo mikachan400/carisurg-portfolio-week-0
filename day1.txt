@@ -1,0 +1,2 @@
+Week 0
+  day 1- set up Colab, Github, watched recorded sessions and completed Assignment 1.
