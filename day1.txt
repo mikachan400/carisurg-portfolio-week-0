@@ -1,2 +1,12 @@
-Week 0
-  day 1- set up Colab, Github, watched recorded sessions and completed Assignment 1.
+Day 1 - Environment Setup
+
+Tasks I did today:
+-Reviewed recorded videos
+-Linked google drive to Colab
+- Created and ran my first Google Colab notebook
+- Verified Python is working (printed output and checked version)
+- Created my GitHub repository: carisurg-portfolio-week0
+- Made my first commit
+-Completed Assignment 1
+
+This is my first time using some of these tools, so I focused on understanding the basics..
