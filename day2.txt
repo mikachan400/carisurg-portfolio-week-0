@@ -1,0 +1,18 @@
+Day 2 - Advanced Data Cleaning
+
+Today I cleaned multiple clinical columns including GCS (Glasgow Coma Scale), SBP (Systolic Blood Pressure), Temperature, and pulse.
+
+I began by inspecting the dataset using commands: head(), tail(), info(), and describe() to understand the structure, identify incorrect data types, and detect missing or inconsistent values.
+
+For each column, I applied a consistent cleaning process:
+- Converted values to numeric format using pd.to_numeric(), ensuring non-numeric entries were captured as NaN
+- Applied clinically valid ranges (e.g. GCS 3–15, pulse 20–250 bpm) to identify physiologically impossible values
+- Replaced invalid values with NaN
+- Handled missing data using median imputation, as it is more robust to outliers
+
+I chose the pulse column as my additional variable because it is clinically straightforward, has a clearly defined valid range, and is easy to interpret in the context of emergency triage. This made it suitable for applying and demonstrating the cleaning process independently.
+
+These decisions were guided by clinical reference ranges given in the tutorial rather than relying solely on the dataset itself. 
+Since extreme values may represent data entry errors rather than true clinical observations.
+
+This process improved data consistency, handled edge cases more effectively, and ensured the dataset is suitable for further analysis and visualisation.
