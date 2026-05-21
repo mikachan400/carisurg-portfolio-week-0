@@ -22,6 +22,9 @@ This week focuses on setting up the core tools and workflows required for clinic
 - Completed environment setup using Google Colab and GitHub
 - Loaded and explored a clinical triage dataset
 - Cleaned the Gender column into a consistent numerical format (1 = Male, 0 = Female)
+- Performed advanced data cleaning on multiple clinical columns (GCS, SBP, Temperature, and pulse)
+- Applied clinical reference ranges to identify and handle invalid values
+- Used median imputation to handle missing data
 
 ## Author
 Shamika Glasgow 
