@@ -18,5 +18,10 @@ This week focuses on setting up the core tools and workflows required for clinic
 - Matplotlib
 - GitHub
 
+## Week 0 Progress
+- Completed environment setup using Google Colab and GitHub
+- Loaded and explored a clinical triage dataset
+- Cleaned the Gender column into a consistent numerical format (1 = Male, 0 = Female)
+
 ## Author
 Shamika Glasgow 
