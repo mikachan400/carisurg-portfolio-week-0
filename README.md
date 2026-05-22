@@ -1,6 +1,6 @@
 # CariSurg Portfolio (Week 0)
 
-This repository documents my progress during Week 0 of the CariSurg MedTech Pathways Programme.
+### This repository documents my progress during Week 0 of the CariSurg MedTech Pathways Programme.
 
 ## 📌 Overview
 This week focuses on developing foundational skills in clinical data processing, including setting up tools such as Google Colab, Python, and GitHub, and performing initial data exploration and cleaning. It also introduces basic exploratory data analysis (EDA) on a sample emergency department triage dataset.
