@@ -56,9 +56,9 @@ Clinical reference ranges were based on tutorial guidance and standard physiolog
 
 Below are the key diagnostic plots generated from the cleaned triage data, mapping patient distributions against critical care thresholds:
 
-| 1. Infection/Sepsis Screening | 2. Hemodynamic Shock Tracking |
+| 1. Temperature/Sepsis Screening | 2. Hemodynamic Shock Tracking |
 | :---: | :---: |
-| <img src="temperature_histogram.png" width="400" alt="Body Temperature Distribution Chart"> | <img src="map_vs_pulse_scatter.png" width="400" alt="MAP vs Pulse Scatter Plot"> |
+| <img src="temperature_sepsis_histogram.png" width="400" alt="Body Temperature Distribution Chart"> | <img src="map_vs_pulse_scatter.png" width="400" alt="MAP vs Pulse Scatter Plot"> |
 | **Temperature Histogram:** Tracks patients crossing pyrexia (>38°C) and hypothermia (<36°C) lines. | **MAP vs. Pulse Scatter:** Highlights high-acuity patients landing in the upper-left shock crosshair. |
 
 ## 👤 Author
