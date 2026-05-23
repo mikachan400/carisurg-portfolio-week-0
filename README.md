@@ -24,15 +24,23 @@ The dataset used is a reduced,anonymous emergency department triage dataset cont
 **Note:** The dataset contains intentionally "dirty" values (inconsistent formats, invalid entries, and out-of-range values) to simulate real-world clinical data issues.
 
 ## ✅ Week 0 Progress
-- Completed environment setup using Google Colab and GitHub
-- Loaded and explored a clinical triage dataset
-- Cleaned the Gender column into a consistent numerical format (1 = Male, 0 = Female)
-- Performed advanced data cleaning on multiple clinical columns (GCS, SBP, Temperature, and pulse)
-- Applied clinical reference ranges to identify and handle invalid values
-- Used median imputation to handle missing data
-- Data Visualization(Critical Care Focus):
-  *Temperature Histogram:* Mapped distribution thresholds targeting pyrexia (>38.0°C) and hypothermia (<36.0°C) parameters for automated sepsis screening logic.
-  *MAP vs. Pulse Scatter Plot:* Combined Mean Arterial Pressure against heart rate limits to isolate and visualize patients in critical compensatory shock quadrants.
+
+- Completed environment setup using Google Colab and GitHub  
+- Loaded and explored a clinical triage dataset  
+- Cleaned the Gender column into a consistent numerical format (1 = Male, 0 = Female)  
+- Performed advanced data cleaning on multiple clinical columns (GCS, SBP, Temperature, and pulse)  
+- Applied clinical reference ranges to identify and handle invalid values  
+- Used median imputation to handle missing data  
+
+### 📊 Data Visualisation (Clinical Focus)
+- **Temperature Histogram:** Visualised the distribution of patient temperatures, highlighting thresholds for hypothermia (<36.0°C) and pyrexia (>38.0°C), which are important for identifying potential sepsis cases.  
+- **MAP vs Pulse Scatter Plot:** Compared mean arterial pressure and heart rate to identify patterns associated with compensatory physiological responses, including potential shock states.  
+
+- Wrote a clinical paragraph describing pulse, including its definition, normal and abnormal ranges, and its importance in triage  
+- Developed an assessment rubric to evaluate one-paragraph clinical descriptions of vital signs, based on criteria such as Clinical Accuracy, Clarity and Professional Writing, Evidence of Understanding, Coverage of Required Elements, and Engagement and Effort  
+- Submitted both the rubric and clinical paragraph as PDF documents via Google Drive 
+
+
 
 ## Cleaning Approach
 For each clinical column, I followed a structured data cleaning process:
