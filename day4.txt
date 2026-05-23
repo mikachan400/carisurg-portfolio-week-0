@@ -1,11 +1,16 @@
 Day 4 – Vital Sign Description
 
-For this task, I developed an assessment rubric to evaluate a one-paragraph clinical report on a selected vital sign. The rubric includes five criteria: Clinical Accuracy, Clarity and Professional Writing, Evidence of Understanding, Coverage of Required Elements, and Engagement and Effort.
+For this task, I developed an assessment rubric to evaluate a one-paragraph clinical report on a selected vital sign. 
+The rubric includes five criteria: Clinical Accuracy, Clarity and Professional Writing, Evidence of Understanding, 
+Coverage of Required Elements, and Engagement and Effort.
 
-For each criterion, I created a four-level scoring system ranging from Not Attempted (0) to Exemplary (3), with clear descriptions at each level. This ensured the rubric was structured, measurable, and aligned with the assignment requirements.
+For each criterion, I created a four-level scoring system ranging from Not Attempted (0) to Exemplary (3), with clear descriptions at each level. 
+This ensured the rubric was structured, measurable, and aligned with the assignment requirements.
 
-The rubric integrates key clinical expectations such as defining the vital sign, stating normal and abnormal ranges, and explaining its relevance in triage. It also considers professional writing standards and clarity of communication.
+The rubric integrates key clinical expectations such as defining the vital sign, stating normal and abnormal ranges, and explaining its relevance in triage. 
+It also considers professional writing standards and clarity of communication.
 
-Additionally, I applied the rubric principles by writing a concise paragraph on pulse, demonstrating how clinical information can be communicated clearly and effectively in a real-world context.
+Additionally, I applied the rubric principles by writing a concise paragraph on pulse, 
+demonstrating how clinical information can be communicated clearly and effectively in a real-world context.
 
 This task helped reinforce the importance of structured evaluation, clinical accuracy, and clear communication in healthcare data science.
