@@ -30,7 +30,11 @@ The dataset used is a reduced,anonymous emergency department triage dataset cont
 - Cleaned the Gender column into a consistent numerical format (1 = Male, 0 = Female)  
 - Performed advanced data cleaning on multiple clinical columns (GCS, SBP, Temperature, and pulse)  
 - Applied clinical reference ranges to identify and handle invalid values  
-- Used median imputation to handle missing data  
+- Used median imputation to handle missing data
+- Wrote a clinical paragraph describing pulse, including its definition, normal and abnormal ranges, and its importance in triage.
+- Submitted clinical paragraph as a PDF document via Google Drive.
+- Wrote an additional clinical paragraph on blood glucose as a vital sign not included in the dataset, explaining its clinical function, normal range, abnormal conditions, and importance in triage decision-making.
+- Submitted additional clinical paragraph as a PDF document via Google Drive.
 
 ### 📊 Data Visualisation (Clinical Focus)
 - **Temperature Histogram:** Visualised the distribution of patient temperatures, highlighting thresholds for hypothermia (<36.0°C) and pyrexia (>38.0°C), which are important for identifying potential sepsis cases.  
