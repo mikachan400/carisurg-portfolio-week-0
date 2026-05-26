@@ -1,0 +1,11 @@
+Day 6 – Digital Triage Algorithm
+
+- Designed a digital triage algorithm using pseudocode to process patient vital signs and categorise patients into risk levels (High, Medium, Low).
+
+- Incorporated key clinical parameters such as Glasgow Coma Scale (GCS), blood pressure, pulse, temperature, respiratory rate, and blood glucose.
+
+- Applied threshold-based logic to identify critical conditions and assign high-risk classifications.
+
+- Improved system design by ensuring all conditions are evaluated independently and that the final risk level reflects the most severe clinical finding.
+
+- Demonstrated understanding of how clinical knowledge can be translated into structured decision-making for healthcare technology systems.
