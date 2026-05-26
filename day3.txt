@@ -2,16 +2,16 @@ Day 3 - Basic Data Visualisation with matplotlib
 
 Today I created clinically meaningful visualisations from the cleaned emergency triage dataset using the matplotlib library. Per the program guidelines, each plot was designed to directly answer a specific clinical question rather than serving as mere decoration.
 
-I focused my analysis on critical care indicators, specifically evaluating markers for infection, sepsis, and hemodynamic shock using two primary plot types:
+I focused my analysis on critical care indicators, specifically evaluating markers for infection, sepsis, and haemodynamic shock using two primary plot types:
 
 1. Histogram (Body Temperature Distribution):
-- Clinical Question: Analyzed the distribution of body temperatures across the triage cohort to detect clusters of hyperthermia (>38°C) or hypothermia (<36°C) that would trigger automatic hospital sepsis screening protocols.
+- Clinical Question: Analysed the distribution of body temperatures across the triage cohort to detect clusters of hyperthermia (>38°C) or hypothermia (<36°C) that would trigger automatic hospital sepsis screening protocols.
 - Features: Implemented vertical reference lines at 36.0°C and 38.0°C to clearly mark diagnostic thresholds for clinical assessment.
 
 2. Scatter Plot (Mean Arterial Pressure vs. Heart Rate):
-- Clinical Question: Evaluated the relationship between Mean Arterial Pressure (MAP) and pulse to observe whether patients exhibiting signs of hemodynamic shock (MAP < 65 mmHg) present with compensatory tachycardia (>100 bpm) to sustain cardiac output.
-- Features: Utilized a two-line intersecting crosshair system (vertical at MAP 65, horizontal at Pulse 100) to isolate high-acuity patients landing in the critical "shock zone" quadrant.
+- Clinical Question: Evaluated the relationship between Mean Arterial Pressure (MAP) and pulse to observe whether patients exhibiting signs of haemodynamic shock (MAP < 65 mmHg) present with compensatory tachycardia (>100 bpm) to sustain cardiac output.
+- Features: Utilised a two-line intersecting crosshair system (vertical at MAP 65, horizontal at Pulse 100) to isolate high-acuity patients landing in the critical "shock zone" quadrant.
 
 I integrated automated file tracking scripts using Python's 'os' module to verify that all plots were successfully generated, validated for size consistency, and saved cleanly to disk as .png files.
 
-These visualization strategies confirm that our post-cleaning dataset is physiologically reasonable, while demonstrating how raw medical data can be transformed into immediate visual screening tools for frontline clinical teams.
+These visualisation strategies confirm that our post-cleaning dataset is physiologically reasonable, while demonstrating how raw medical data can be transformed into immediate visual screening tools for frontline clinical teams.
