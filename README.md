@@ -35,6 +35,7 @@ The dataset used is a reduced,anonymous emergency department triage dataset cont
 - Submitted clinical paragraph as a PDF document via Google Drive.
 - Wrote an additional clinical paragraph on blood glucose as a vital sign not included in the dataset, explaining its clinical function, normal range, abnormal conditions, and importance in triage decision-making.
 - Submitted additional clinical paragraph as a PDF document via Google Drive.
+- Designed a digital triage algorithm using pseudocode to process patient data and categorise patients into risk levels based on clinical thresholds, ensuring all parameters were evaluated and the highest risk level was assigned.
 
 ### 📊 Data Visualisation (Clinical Focus)
 - **Temperature Histogram:** Visualised the distribution of patient temperatures, highlighting thresholds for hypothermia (<36.0°C) and pyrexia (>38.0°C), which are important for identifying potential sepsis cases.  
