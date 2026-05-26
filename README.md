@@ -2,6 +2,9 @@
 
 This repository documents my progress during Week 0 of the CariSurg MedTech Pathways Programme, focusing on clinical data processing.
 
+## 👤 About Me
+I am a BSc. Computer Science with Management student at the University of the West Indies, St. Augustine. I joined the CariSurg MedTech Pathways Programme to develop deployable, real-world skills, connect with like-minded people, and deepen my understanding of the field where healthcare meets technology.
+
 ## 📌 Overview
 This week focuses on developing foundational skills in clinical data processing, including setting up tools such as Google Colab, Python, and GitHub, and performing initial data exploration, cleaning and producing clinically meaningful visualisations. It also introduces basic exploratory data analysis (EDA) on a sample emergency department triage dataset.
 
@@ -51,6 +54,15 @@ For each clinical column, I followed a structured data cleaning process:
 - Verified results after cleaning
 
 Clinical reference ranges were based on tutorial guidance and standard physiological limits.
+
+## 💡 Key Takeaways
+
+- **Clinical normal ranges are not one-size-fits-all.** Working with blood glucose and pulse data highlighted how normal values differ across age groups and conditions — for example, healthy adults and diabetic patients operate within different acceptable glucose ranges, and younger individuals naturally present with higher resting pulse rates.
+- **Data cleaning is a clinical skill, not just a technical one.** Before this week I had not considered how much a clinician's ability to make sound decisions depends on the quality of the data in front of them. Dirty or inconsistent data in a real system could directly affect patient outcomes.
+
+## 🔭 Reflection
+
+Week 0 was both challenging and rewarding. Deciding on the best approach for each deliverable took more thought than I expected, and navigating Google Colab alongside aspects of Python was a learning curve. But with each task completed I grew more confident. I am looking forward to Week 1 and beyond — diving deeper into how technology can be meaningfully applied in healthcare, and continuing to build skills that are both technically grounded and clinically informed.
 
 ## 🚀 How to Run
 1. Open the notebook in Google Colab
