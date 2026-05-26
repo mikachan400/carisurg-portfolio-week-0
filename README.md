@@ -28,17 +28,17 @@ The dataset used is a reduced, anonymised emergency department triage dataset co
 
 ## ✅ Week 0 Progress
 
-- Completed environment setup using Google Colab and GitHub
-- Loaded and explored a clinical triage dataset
-- Cleaned the Gender column into a consistent numerical format (1 = Male, 0 = Female)
-- Performed advanced data cleaning on multiple clinical columns (GCS, SBP, Temperature, and Pulse)
-- Applied clinical reference ranges to identify and handle invalid values
-- Used median imputation to handle missing data
-- Wrote a clinical paragraph describing pulse, including its definition, normal and abnormal ranges, and its importance in triage
-- Submitted clinical paragraph as a PDF document via Google Drive
-- Wrote an additional clinical paragraph on blood glucose as a vital sign not included in the dataset, explaining its clinical function, normal range, abnormal conditions, and importance in triage decision-making
-- Submitted additional clinical paragraph as a PDF document via Google Drive
-- Designed a digital triage algorithm using pseudocode to process patient data and categorise patients into risk levels based on clinical thresholds, ensuring all parameters were evaluated and the highest risk level was assigned
+- Completed environment setup using Google Colab and GitHub.
+- Loaded and explored a clinical triage dataset.
+- Cleaned the Gender column into a consistent numerical format (1 = Male, 0 = Female).
+- Performed advanced data cleaning on multiple clinical columns (GCS, SBP, Temperature, and Pulse).
+- Applied clinical reference ranges to identify and handle invalid values.
+- Used median imputation to handle missing data.
+- Wrote a clinical paragraph describing pulse, including its definition, normal and abnormal ranges, and its importance in triage.
+- Submitted clinical paragraph as a PDF document via Google Drive.
+- Wrote an additional clinical paragraph on blood glucose as a vital sign not included in the dataset, explaining its clinical function, normal range, abnormal conditions, and importance in triage decision-making.
+- Submitted additional clinical paragraph as a PDF document via Google Drive.
+- Designed a digital triage algorithm using pseudocode to process patient data and categorise patients into risk levels based on clinical thresholds, ensuring all parameters were evaluated and the highest risk level was assigned.
 
 ### 📊 Data Visualisation (Clinical Focus)
 - **Temperature Histogram:** Visualised the distribution of patient temperatures, highlighting thresholds for hypothermia (<36.0°C) and pyrexia (>38.0°C), which are important for identifying potential sepsis cases.
@@ -46,23 +46,23 @@ The dataset used is a reduced, anonymised emergency department triage dataset co
 
 ## 🧹 Cleaning Approach
 For each clinical column, I followed a structured data cleaning process:
-- Inspected values using unique values and summary statistics
-- Converted data types to numeric format
-- Applied clinical reference ranges to identify invalid values
-- Replaced invalid values with NaN
-- Used median imputation to handle missing data
-- Verified results after cleaning
+- Inspected values using unique values and summary statistics.
+- Converted data types to numeric format.
+- Applied clinical reference ranges to identify invalid values.
+- Replaced invalid values with NaN.
+- Used median imputation to handle missing data.
+- Verified results after cleaning.
 
 Clinical reference ranges were based on tutorial guidance and standard physiological limits.
 
 ## 💡 Key Takeaways
 
-- **Clinical normal ranges are not one-size-fits-all.** Working with blood glucose and pulse data highlighted how normal values differ across age groups and conditions — for example, healthy adults and diabetic patients operate within different acceptable glucose ranges, and younger individuals naturally present with higher resting pulse rates.
+- **Clinical normal ranges are not universal.** Working with blood glucose and pulse data highlighted how normal values differ across age groups and conditions, for example, healthy adults and diabetic patients operate within different acceptable glucose ranges, and younger individuals naturally present with higher resting pulse rates.
 - **Data cleaning is a clinical skill, not just a technical one.** Before this week I had not considered how much a clinician's ability to make sound decisions depends on the quality of the data in front of them. Dirty or inconsistent data in a real system could directly affect patient outcomes.
 
 ## 🔭 Reflection
 
-Week 0 was both challenging and rewarding. Deciding on the best approach for each deliverable took more thought than I expected, and navigating Google Colab alongside aspects of Python was a learning curve. But with each task completed I grew more confident. I am looking forward to Week 1 and beyond — diving deeper into how technology can be meaningfully applied in healthcare, and continuing to build skills that are both technically grounded and clinically informed.
+Week 0 was both challenging and rewarding. Deciding on the best approach for each deliverable took more thought than I expected, and navigating Google Colab alongside aspects of Python was a learning curve. But with each task completed I grew more confident. I am looking forward to Week 1 and the rest of the weeks to come. It has been amazing learning how technology can be meaningfully applied in healthcare, and I embrace this opportunity of continuing to build skills that are both technically grounded and clinically informed.
 
 ## 🚀 How to Run
 1. Open the notebook in Google Colab
