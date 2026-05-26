@@ -9,4 +9,4 @@ Tasks I did today:
 - Made my first commit
 -Completed Assignment 1
 
-This is my first time using some of these tools, so I focused on understanding the basics..
+This is my first time using some of these tools, so I focused on understanding the basics.
