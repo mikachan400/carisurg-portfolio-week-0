@@ -2,4 +2,4 @@ Day 5 – Additional Vital Sign Report
 
 - Selected blood glucose as an additional vital sign that should be included in triage.
 
-- Wrote a clinical paragraph explaining what blood glucose is, its normal clinical range, and the significance of abnormal values such as hypoglycaemia and hyperglyca
+- Wrote a clinical paragraph explaining what blood glucose is, its normal clinical range, and the significance of abnormal values such as hypoglycaemia and hyperglycaemia
